@@ -464,4 +464,4 @@ function helperPathAppend( $path, ...$append )
 $pj = new ProjectHandler;
 $pj();
 
-return $pj->getResult( ProjectHandler::FILES, LOCAL . DS . 'top.php' );
+return $pj;
